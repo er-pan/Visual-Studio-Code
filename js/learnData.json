@@ -1,0 +1,20 @@
+{
+  "learnList": [
+    {
+      "h1": "Learn to code with Visual Studio Code",
+      "p": "Learning to code is intimidating, so set yourself up for success with a tool built for you. Visual Studio Code is a free coding editor that helps you start coding quickly. Use it to code in any programming language, without switching editors. Visual Studio Code has support for many languages, including Python, Java, C++, JavaScript, and more. Ready to get started? Check out these <span>introductory videos</span> or check out our <span>coding packs for Java, Python, and .NET.</span>",
+      "h2": "Why VS Code? <span>#</span>",
+      "src": "https://code.visualstudio.com/assets/learn/get-started/overview/vscode2.png",
+      "h3_1": "Collaborate and code remotely <span>#</span>",
+      "p_1": "Work together remotely with your teachers or classmates using the free <span>LiveShare extension.</span> Edit and debug your code in real-time, and use the chat and call features to ask questions or discuss ideas together. Whether you're working on a group assignment or teaching a lesson, you can invite multiple people to join your session and code together. Check out this <span>tutorial on how start using LiveShare.",
+      "h3_2": "Code to learn <span>#</span>",
+      "p_2": "New to coding? Visual Studio Code highlights keywords in your code in different colors to help you easily identify coding patterns and learn faster. You can also take advantage of features like <span>IntelliSense</span> and Peek Definition, which help you understand how functions can be used, and how they relate to one another.",
+      "h3_3": "Fix errors as you code <span>#</span>",
+      "p_3": "As you code, Visual Studio Code gives you suggestions to complete lines of code and quick fixes for common mistakes. You can also use the debugger in VS Code to step through each line of code and understand what is happening. Check out guides on how to use the debugger if you're coding in <span>Python, Java</span>, and <span>JavaScript/TypeScript/Node.js.</span>",
+      "h3_4": "Compare changes in your code <span>#</span>",
+      "p_4": "Use the built-in source control to save your work over time so you don't lose progress. See a graphical side-by-side view to compare versions of your code from different points in time. Check out this quick <span>video on how to get a side-by-side \"diff\".</span>",
+      "h3_5": "Code inside Notebooks <span>#</span>",
+      "p_5": "If you want to try a project in data science or data visualization, you can use Jupyter notebooks inside VS Code. Run your code step-by-step, and visualize and interact with your data, variables, graphs, and plots. Check out this <span>tutorial on how to work with Jupyter Notebooks inside VS Code.</span>"
+    }
+  ]
+}

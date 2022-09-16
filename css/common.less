@@ -1,0 +1,283 @@
+//公共样式
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  color: #9d9d9d;
+  a {
+      text-decoration: none;
+      &:hover {
+        color: #c5c5c5 !important;
+        text-decoration: none;
+      }
+  }
+}
+h1, h2, h3, h4, h5, h6, span {
+  color: #fff;
+}
+p {
+  color: #ccc;
+  margin-bottom: 0;
+}
+ul, ol {
+  margin-bottom: 0;
+}
+//相对定位
+.re {
+  position: relative;
+}
+//绝对定位
+.ab {
+  position: absolute;
+}
+//上下内边距1rem
+.pd-1 {
+  padding: 1rem 0;
+}
+//左右内边距1rem
+.pdb-1 {
+  padding: 0 1rem;
+}
+//上下内边距2rem
+.pd-2 {
+  padding: 2rem 0;
+}
+//上下内边距6rem
+.pd-6 {
+  padding: 6rem 0;
+}
+//上外边距1rem
+.mar-1 {
+  margin-top: 1rem;
+}
+//上外边距2rem
+.mar-2 {
+  margin-top: 2rem;
+}
+//上外边距4rem
+.mar-4 {
+  margin-top: 4rem;
+}
+//上外边距6rem
+.mar-6 {
+  margin-top: 6rem;
+}
+//下外边距6rem
+.mab-6 {
+  margin-bottom: 6rem;
+}
+//上外边距15rem
+.mar-15 {
+  margin-top: 15rem;
+}
+//下外边距1rem
+.mab-1 {
+  margin-bottom: 1rem;
+}
+
+//水平居中
+.mar {
+  margin: 0 auto;
+}
+//两端对齐
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+//两端对齐换行
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+//内容居中对齐
+.flex-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//内容水平居中
+.flex-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+//顶部对齐
+.flex-top {
+  display: flex;
+  justify-content: space-between;
+}
+//水平布局
+.flex-f {
+  display: flex;
+  align-items: center;
+}
+
+//头部区域
+.navbar {
+  height: 50px;
+  background-color: #2c2c32;
+  border: none;
+  .navbar-container {
+    height: 50px;
+    .navbar-header {
+      height: 100%;
+      a {
+        img {
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+        }
+        span {
+          color: #fff;
+          margin-left: 1rem;
+        }
+      }
+    }
+    #bs-example-navbar-collapse-1 {
+      background-color: #2c2c32
+    }
+    .navbar-right {
+      height: 50px;
+      li {
+        height: 50px;
+        margin: 0;
+        .li-a {
+          width: 200px;
+          height: 100%;
+        }
+      }
+      .li1 {
+        display: none;
+      }
+      .form-control {
+        width: 200px;
+        background: rgba(255, 255, 255, .08);
+        border: none;
+        height: 50px;
+        padding: 6px 15px 6px 40px;
+        border-radius: 0;
+        color: #fff;
+        margin-top: -16px;
+      }
+      .link-button {
+        color: #fff;
+        font-size: 16px;
+        line-height: 100%;
+        padding: 14px 20px 17px;
+        margin-left: -2px;
+        background-color: #0066b8;
+        .glyphicon-arrow-down {
+          top: .3rem;
+          margin-right: .3rem;
+        }
+      }
+    }
+    @media screen and (max-width: 1200px) and (min-width: 768px) {
+      .navbar-right {
+        .li1 {
+          left: 200px;
+        }
+      }
+    }
+  }
+}
+
+//头部提示
+.tips {
+  margin-top: 5rem;
+  background-color: #25252b;
+  color: #ccc;
+  padding: .3rem;
+  .title {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    padding: 0 12%;
+    span {
+      color: #0098ff;
+    }
+  }
+}
+
+//页脚区域
+.footer {
+  font-size: 12px;
+  color: #fff;
+  padding: 36px 0;
+  .left-ul {
+    li {
+      font-size: 14px;
+      display: inline-block;
+      margin-right: 1.5rem;
+      .sp3 {
+        font-size: 12px;
+        color: black;
+        border-radius: 4px;
+        padding: .5rem;
+        background-color: #fff;
+      }
+    }
+  }
+  .right-ul {
+    li {
+      color: #fff;
+      font-size: 12px;
+      display: inline-block;
+      margin-right: 2rem;
+    }
+    .last-li {
+      margin: 0;
+    }
+  }
+  .copyRight {
+    .copy-rgt {
+      margin-left: 7rem;
+      img {
+        display: block;
+        width: 93px;
+        height: 20px;
+      }
+    }
+  }
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    .right {
+      text-align: left;
+    }
+    .copyRight {
+      .copy-rgt {
+        margin-left: 4rem;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+    .right {
+      margin-top: 3rem;
+      text-align: left;
+    }
+    .copyRight {
+      .copy-rgt {
+        .ab {
+          left: 50%;
+          margin-top: 3rem;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .right {
+      margin-top: 3rem;
+      text-align: left;
+    }
+    .copyRight {
+      .copy-rgt {
+        margin-left: 0;
+      }
+    }
+  }
+}

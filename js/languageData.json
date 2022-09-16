@@ -1,0 +1,52 @@
+{
+  "languageList": [
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/javascript.svg",
+      "name": "JavaScript"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/python.svg",
+      "name": "Python"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/java.svg",
+      "name": "Java"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/markdown.svg",
+      "name": "Markdown"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/typescript.svg",
+      "name": "TypeScript"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/cpp.svg",
+      "name": "C/C++"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/json.svg",
+      "name": "JSON"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/powershell.svg",
+      "name": "Powershell"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/html.svg",
+      "name": "HTML/CSS"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/csharp.svg",
+      "name": "C#"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/php.svg",
+      "name": "PHP"
+    },
+    {
+      "src": "https://code.visualstudio.com/assets/icons/file-icons/yaml.svg",
+      "name": "YAML"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "carouselList": [
+    {
+      "img": "../img/carousel/01.jpg",
+      "username": "Una Kravets",
+      "call": "@Una",
+      "desc": "VS <span>@code</span> does so many things right. I’m constantly impressed by the UX, and\n                      customizing workspace / user preferences is no exception. \uD83D\uDE4C\uD83C\uDFFC\uD83D\uDCAF It just keeps getting better ❤️"
+    },
+    {
+      "img": "../img/carousel/02.jpg",
+      "username": "Jonathan Dunlap",
+      "call": "@jadbox",
+      "desc": "VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. \uD83D\uDD25\uD83D\uDD25\uD83D\uDD25"
+    },
+    {
+      "img": "../img/carousel/03.jpg",
+      "username": "Pavithra Kodmad",
+      "call": "@PKodmad",
+      "desc": "VS Code is my most used and favorite editor. I love being able to customize the editor - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n                      changing the layout, the icons, fonts and color scheme is so &nbsp;&nbsp; easy!"
+    },
+    {
+      "img": "../img/carousel/04.jpg",
+      "username": "Darren",
+      "call": "@MrDarrenV",
+      "desc": "Just as I thought <span>@code</span> couldn't get better, out comes its Remote Development\n                      plugins that let you remote into containers as a dev environment! \uD83D\uDE0D"
+    },
+    {
+      "img": "../img/carousel/05.jpg",
+      "username": "Cassidy Williams",
+      "call": "@cassidoo",
+      "desc": "I was a vim fan, but then discovered VS Code's Vim plugin, which lets me add in my vim\n                      keybindings. I can maintain my coding style without having to compromise on speed."
+    },
+    {
+      "img": "../img/carousel/06.jpg",
+      "username": "Gift Egwuenu",
+      "call": "@lauragift21",
+      "desc": "I love <span>@code</span> The built-in markdown previewer is awesome and the plugin system allows\n                      me to use GitLens, which makes my workflow so much easier."
+    }
+  ]
+}

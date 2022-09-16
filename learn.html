@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>learn</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/less" href="./css/common.less">
+  <link rel="stylesheet" type="text/less" href="./css/learn.less">
+</head>
+<body>
+<!-- 头部区域 -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container navbar-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand flex-f" href="./home.html">
+        <img src="./img/nav/nav-logo.png" alt="">
+        <span>Visual Studio Code</span>
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav nav-hide">
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Extensions</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Learn</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right ">
+        <li class="li1">
+          <a href="#">
+            <span class="glyphicon glyphicon-search"></span>
+          </a>
+        </li>
+        <li><a href="#" class="li-a re">
+          <input type="text" class="form-control" placeholder="Search Docs">
+        </a></li>
+        <li>
+          <a href="#" class="link-button">
+            <span class="glyphicon glyphicon-arrow-down re"></span>
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 头部提示 -->
+<section class="tips">
+  <div class="container">
+    <div class="row text-center ">
+      <!--      <div class="">-->
+      <p class="title"><span>Version 1.71</span> is now available! Read about the new features and fixes from August.
+      </p>
+      <!--      </div>-->
+    </div>
+  </div>
+</section>
+
+<!-- 内容区域 -->
+<section class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 navbar-container mar-2">
+        <nav id="docs-navbar" aria-label="Topics" class="docs-nav visible-md visible-lg">
+          <ul class="nav" id="main-nav">
+            <li>
+              <a class="docs-home" href="/learn">Overview</a>
+            </li>
+            <li class="panel collapsed">
+              <a class="area" role="button" href="#getstarted-articles" data-parent="#main-nav" data-toggle="collapse"
+                 aria-expanded="false">get started</a>
+              <ul id="getstarted-articles" class="collapse " aria-expanded="true">
+                <li>
+                  <a href="/learn/get-started/basics">Setup</a>
+                </li>
+
+                <li>
+                  <a href="/learn/get-started/extensions">Extensions</a>
+                </li>
+
+                <li>
+                  <a href="/learn/get-started/personalize">Customize</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="panel collapsed">
+              <a class="area" role="button" href="#students-articles" data-parent="#main-nav" data-toggle="collapse"
+                 aria-expanded="false">student lessons</a>
+              <ul id="students-articles" class="collapse " aria-expanded="false">
+
+                <li>
+                  <a href="/learn/students/nasa-python">NASA Lessons</a>
+                </li>
+
+                <li>
+                  <a href="/learn/students/over-the-moon-python">Over the Moon Lessons</a>
+                </li>
+
+                <li>
+                  <a href="/learn/students/wonder-woman-python">Wonder Woman Lessons</a>
+                </li>
+
+                <li>
+                  <a href="/learn/students/spacejam-python">Space Jam Lessons</a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li class="panel collapsed">
+              <a class="area" role="button" href="#educators-articles" data-parent="#main-nav" data-toggle="collapse"
+                 aria-expanded="false">educator resources</a>
+              <ul id="educators-articles" class="collapse " aria-expanded="false">
+
+                <li>
+                  <a href="/learn/educators/installers">Coding Packs</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/codetour">CodeTour</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/learn-modules">Microsoft Learn</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/nodejs">Node.js and JavaScript</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/python">Python</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/notebooks">Jupyter Notebooks</a>
+                </li>
+
+                <li>
+                  <a href="/learn/educators/webinars">Webinars</a>
+                </li>
+              </ul>
+            </li>
+            <li class="panel collapsed">
+              <a class="area" role="button" href="#collaboration-articles" data-parent="#main-nav"
+                 data-toggle="collapse" aria-expanded="false">collaboration</a>
+              <ul id="collaboration-articles" class="collapse " aria-expanded="false">
+
+                <li>
+                  <a href="/learn/collaboration/live-share">Live Share</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="panel collapsed">
+              <a class="area" role="button" href="#developcloud-articles" data-parent="#main-nav" data-toggle="collapse"
+                 aria-expanded="false">remote development</a>
+              <ul id="developcloud-articles" class="collapse " aria-expanded="false">
+
+                <li>
+                  <a href="/learn/develop-cloud/overview">Overview</a>
+                </li>
+
+                <li>
+                  <a href="/learn/develop-cloud/containers">Develop in Containers</a>
+                </li>
+
+                <li>
+                  <a href="/learn/develop-cloud/ssh-lab-machines">Working over SSH</a>
+                </li>
+
+                <li>
+                  <a href="/learn/develop-cloud/wsl">Use the Windows Subsystem for Linux</a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <nav id="small-nav" aria-label="Topics" class="docs-nav hidden-md hidden-lg flex-f">
+          <h4>Learn</h4>
+          <select id="small-nav-dropdown" aria-label="topics">
+            <optgroup label="get started">
+              <option value="/learn/get-started/basics">Setup</option>
+              <option value="/learn/get-started/extensions">Extensions</option>
+              <option value="/learn/get-started/personalize">Customize</option>
+            </optgroup>
+
+            <optgroup label="student lessons">
+              <option value="/learn/students/nasa-python">NASA Lessons</option>
+              <option value="/learn/students/over-the-moon-python">Over the Moon Lessons</option>
+              <option value="/learn/students/wonder-woman-python">Wonder Woman Lessons</option>
+              <option value="/learn/students/spacejam-python">Space Jam Lessons</option>
+            </optgroup>
+
+            <optgroup label="educator resources">
+              <option value="/learn/educators/installers">Coding Packs</option>
+              <option value="/learn/educators/codetour">CodeTour</option>
+              <option value="/learn/educators/learn-modules">Microsoft Learn</option>
+              <option value="/learn/educators/nodejs">Node.js and JavaScript</option>
+              <option value="/learn/educators/python">Python</option>
+              <option value="/learn/educators/notebooks">Jupyter Notebooks</option>
+              <option value="/learn/educators/webinars">Webinars</option>
+            </optgroup>
+
+            <optgroup label="collaboration">
+              <option value="/learn/collaboration/live-share">Live Share</option>
+            </optgroup>
+
+            <optgroup label="remote development">
+              <option value="/learn/develop-cloud/overview">Overview</option>
+              <option value="/learn/develop-cloud/containers">Develop in Containers</option>
+              <option value="/learn/develop-cloud/ssh-lab-machines">Working over SSH</option>
+              <option value="/learn/develop-cloud/wsl">Use the Windows Subsystem for Linux</option>
+            </optgroup>
+          </select>
+        </nav>
+      </div>
+      <div class="col-md-8 body-container" id="body"></div>
+      <div class="col-sm-3 col-md-2 subnavbar-container mar-2">
+        <nav id="docs-subnavbar" aria-label="On Page Navigation" data-spy="affix" data-offset-top="20" class="affix-top">
+          <h4>
+            <span aria-hidden="true">In this article</span>
+          </h4>
+          <ul class="nav">
+            <li class="pd-1 text-left"><a href="#">{ <span>Why VS Code?</span></a></li>
+          </ul>
+          <div class="connect-widget">
+            <ul class="connect-links">
+              <li id="connect-twitter-link">
+                <a href="#" target="_blank">
+                <img alt="Twitter" src="https://code.visualstudio.com/assets/community/sidebar/twitter.svg">
+                Tweet this link
+              </a>
+              </li>
+              <li id="connect-rssfeed">
+                <a href="/feed.xml" target="_blank">
+                  <img alt="RSS" src="https://code.visualstudio.com/assets/community/sidebar/rss.svg">
+                  Subscribe
+                </a>
+              </li>
+              <li id="connect-stack-overflow">
+                <a href="https://stackoverflow.com/questions/tagged/vscode" target="_blank">
+                  <img alt="Stackoverflow" src="https://code.visualstudio.com/assets/community/sidebar/stackoverflow.svg">
+                  Ask questions
+                </a>
+              </li>
+              <li id="connect-twitter">
+                <a href="https://go.microsoft.com/fwlink/?LinkID=533687" target="_blank">
+                  <img alt="Twitter" src="https://code.visualstudio.com/assets/community/sidebar/twitter.svg">
+                  Follow @code
+                </a>
+              </li>
+              <li id="connect-uservoice">
+                <a href="https://go.microsoft.com/fwlink/?LinkID=533482" target="_blank">
+                  <img alt="GitHub" src="https://code.visualstudio.com/assets/community/sidebar/github.svg">
+                  Request features
+                </a>
+              </li>
+              <li id="connect-github">
+                <a href="https://www.github.com/Microsoft/vscode/issues" target="_blank">
+                  <img alt="Issues" src="https://code.visualstudio.com/assets/community/sidebar/issue.svg">
+                  Report issues
+                </a>
+              </li>
+              <li id="connect-youtube">
+                <a href="https://www.youtube.com/channel/UCs5Y5_7XK8HLDX0SLNwkd3w" target="_blank">
+                  <img alt="YouTube" src="https://code.visualstudio.com/assets/community/sidebar/youtube.svg">
+                  Watch videos
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      </div>
+    </div>
+</section>
+
+<!-- 页脚区域 -->
+<footer class="footer navbar-inverse">
+  <div class="container">
+    <div class="row">
+      <div class="left col-md-7 col-sm-12">
+        <ul class="left-ul">
+          <li>
+            <span>Hello from Seattle.</span>
+          </li>
+          <li>
+            <span>Follow @code</span>
+          </li>
+          <li>
+            <span class="sp3">Start 136,348</span>
+          </li>
+        </ul>
+      </div>
+      <div class="right col-md-5 col-sm-12 text-right">
+        <ul class="right-ul">
+          <li>Support</li>
+          <li>Privacy</li>
+          <li>Manage Cookies</li>
+          <li>Tems of Use</li>
+          <li class="last-li">License</li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-md-offset-10 copyRight mar-2">
+        <div class="copy-rgt re">
+          <div class="ab">
+            <img src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt="">
+            <span class="">© 2022 Microsoft</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/learn.js"></script>
+</body>
+</html>

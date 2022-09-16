@@ -1,0 +1,211 @@
+@import "./common.less";
+
+.content {
+  //左边导航栏
+  .navbar-container {
+    position: sticky;
+    top: 70px !important;
+    height: calc(100vh - 70px);
+    #docs-navbar {
+      padding: 15px 0;
+      overflow-y: auto;
+      max-height: calc(100vh - 40px);
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      #main-nav {
+        max-height: calc(100vh - 140px);
+        li {
+          border-left: 1px solid #ccc;
+          margin-bottom: 0;
+          a {
+            color: #707070;
+            padding: 8px 15px;
+            font-size: 14px;
+            background: none;
+            display: block;
+            &:hover {
+
+            }
+          }
+          &:hover:not(li:nth-child(1)) {
+            border-left: 1px solid #0071bc;
+            background: url('https://code.visualstudio.com/expand-down.svg') 130px 5px no-repeat;
+            background-size: 24px;
+            a {
+              color: #444 !important;
+            }
+          }
+          &:focus:not(li:nth-child(1)) {
+            border-left: 1px solid #0071bc;
+            background: url('https://code.visualstudio.com/expand-up.svg') 130px 5px no-repeat;
+          }
+          .docs-home {
+            padding-bottom: 16px;
+          }
+        }
+        .panel>a {
+          margin-right: 20px;
+          padding-right: 22px;
+          overflow-wrap: break-word;
+        }
+        .panel>ul>li>a {
+          font-size: 12px;
+          color: #707070;
+        }
+      }
+    }
+    #small-nav {
+      h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444444 !important;
+        margin-right: 1rem;
+      }
+    }
+    @media screen and (max-width: 992px) {
+      position: static;
+      top: 0;
+      height: auto;
+    }
+  }
+  //中间内容
+  .body-container {
+    h1 {
+      font-size: 3.5rem;
+      color: #727171;
+      font-weight: 100 !important;
+    }
+    p {
+      color: #696969;
+      font-size: 16px;
+      line-height: 1.6;
+      span {
+        color: #0098ff !important;
+        &:hover {
+          color: #035da6 !important;
+          text-decoration: underline;
+        }
+      }
+    }
+    h2 {
+      color: #727171;
+      span {
+        color: #0098ff;
+        display: none;
+      }
+      &:hover {
+        span {
+          display: inline-block;
+        }
+      }
+    }
+    .cent-img {
+      img {
+        width: 495px;
+        height: 286px;
+      }
+    }
+    h3 {
+      color: #9a9a9a;
+      span {
+        color: #0098ff;
+        display: none;
+      }
+      &:hover {
+        span {
+          display: inline-block;
+        }
+      }
+    }
+    @media screen and (max-width: 768px){
+      h1 {
+        font-size: 2.4rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
+      .cent-img {
+        img {
+          width: 90%;
+          height: 90%;
+        }
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  //右边导航栏
+  .subnavbar-container {
+    #docs-subnavbar {
+      top: 70px;
+      font-size: 12px;
+      width: 175px;
+      margin-left: -15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      h4 {
+        span {
+          color: #444444 !important;
+          font-size: 14px;
+          margin-left: 1rem;
+        }
+      }
+      .nav {
+        li {
+          a {
+            color: #0098ff !important;
+            font-weight: 600;
+            background: none;
+            padding: 0;
+            span {
+              color: #0098ff !important;
+              &:hover {
+                color: #444444 !important;
+              }
+            }
+          }
+        }
+      }
+      .connect-widget {
+        .connect-links>li {
+            margin-bottom: .6rem;
+            img {
+              width: 15px;
+              height: 15px;
+              margin-right: 1rem;
+            }
+            &:hover a {
+              color: #014277 !important;
+              text-decoration: underline !important;
+            }
+        }
+      }
+    }
+  }
+  //媒体查询
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    #docs-subnavbar {
+      right: 0;
+    }
+    .body-container {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #p_5 {
+      margin-bottom: 1rem;
+    }
+    .subnavbar-container {
+      #docs-subnavbar {
+        position: relative;
+        top: 0;
+        left: 2rem;
+      }
+    }
+  }
+}
